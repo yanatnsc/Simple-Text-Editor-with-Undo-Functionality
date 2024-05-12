@@ -1,9 +1,180 @@
-<mxfile host="app.diagrams.net" modified="2024-05-12T20:37:54.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="pjMmppL5NwFxz_MrwIRa" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-12T21:02:39.455Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="7NXIIEtdmmOwQOeWDRt3" version="24.4.0" type="github">
   <diagram name="Page-1" id="Z-7OnqmCHrE-U2DOXEaB">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-1" target="Uy5HGiTdgmlaw_j0HYKI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-1" value="Start to add character" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-4" target="Uy5HGiTdgmlaw_j0HYKI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-4" value="Get the current string, and the character to add" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-5" target="Uy5HGiTdgmlaw_j0HYKI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-5" value="Record this action on the operation stack" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-8" target="Uy5HGiTdgmlaw_j0HYKI-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-8" value="Print the updated string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-10" value="End" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-14" value="Start to delete character" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-16" target="Uy5HGiTdgmlaw_j0HYKI-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-16" value="Get the current string, remove the last character" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-18" target="Uy5HGiTdgmlaw_j0HYKI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-18" value="Record this action on the operation stack" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-20" target="Uy5HGiTdgmlaw_j0HYKI-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-20" value="Print the updated string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-21" value="End" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-31" target="Uy5HGiTdgmlaw_j0HYKI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-31" target="Uy5HGiTdgmlaw_j0HYKI-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-31" value="Is the string empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-14" target="Uy5HGiTdgmlaw_j0HYKI-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-34" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-35" value="Print the alert about the string being empty" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-35" target="Uy5HGiTdgmlaw_j0HYKI-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-38" value="Start to undo last action in operation stack" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-40" value="Pop the last action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-42" target="Uy5HGiTdgmlaw_j0HYKI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-42" value="Drop the last character" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-44" target="Uy5HGiTdgmlaw_j0HYKI-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-44" value="Print the updated string" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-45" value="End" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-48" target="Uy5HGiTdgmlaw_j0HYKI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-48" target="Uy5HGiTdgmlaw_j0HYKI-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-48" value="Is the stack empty?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-38" target="Uy5HGiTdgmlaw_j0HYKI-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="360" as="sourcePoint" />
+            <mxPoint x="850" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-50" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-51" value="Print the alert about no action left to undo" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-51" target="Uy5HGiTdgmlaw_j0HYKI-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="360" as="sourcePoint" />
+            <mxPoint x="850" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-53" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-54" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-56" target="Uy5HGiTdgmlaw_j0HYKI-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-56" target="Uy5HGiTdgmlaw_j0HYKI-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-56" value="Is the last action&amp;nbsp;&lt;div&gt;add or delete?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="330" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-57" target="Uy5HGiTdgmlaw_j0HYKI-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-57" value="Adding back the character from last action" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-60" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uy5HGiTdgmlaw_j0HYKI-40" target="Uy5HGiTdgmlaw_j0HYKI-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="460" as="sourcePoint" />
+            <mxPoint x="450" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-61" value="Delete" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-62" value="Add" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-64" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Clarifying Questions&lt;/font&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Do I need to design a user interface (assume no as the focus is on practicing stack)&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-wrap: nowrap;&quot;&gt;Does3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2017px%3B%26quot%3B%26gt%3BTime%20Complexity%3A%20O(n)%20as%20we%20traverse%20through%20the%20list%26lt%3B%2Fspan%26gt%3B%26lt%3Bdiv%26gt%3B%26lt%3Bspan%20style%3D%26quot%3Bfont-size%3A%2017px%3B%26quot%3B%26gt%3BSpace%20Complexity%3A%26amp%3Bnbsp%3B%20O(1)%20as%20I%20just%20need%20three%20pointers%20(prev%2Fcurrent%2Fnext)%26lt%3Bbr%26gt%3B%26lt%3B%2Fspan%26gt%3B%26lt%3B%2Fdiv%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BwhiteSpace%3Dwrap%3Brounded%3D0%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2252%22%20y%3D%22680%22%20width%3D%22460%22%20height%3D%2285%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="250" width="460" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="Uy5HGiTdgmlaw_j0HYKI-65" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Time Complexity: O(1) for adding/deleting characters and also undoing (popping action from the stack)&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;Space Complexity:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 17px; background-color: initial;&quot;&gt;O(1) for adding/deleting characters and also undoing (popping action from the stack).&lt;/span&gt;&lt;span style=&quot;font-size: 17px; background-color: initial;&quot;&gt;&amp;nbsp;O(n+m) for space to hold the n-character string and m-operation stack&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="380" width="460" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
