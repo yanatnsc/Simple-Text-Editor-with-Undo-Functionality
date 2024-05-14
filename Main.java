@@ -11,7 +11,7 @@ public class Main {
         te.undo(); //H!
         te.undo(); //H
         te.undo(); //""
-        te.undo(); //"String is empty"
+        te.undo(); //"No action to undo"
         te.deleteCharacter(); //"String is empty"
         te.addCharacter('H'); //H
         te.addCharacter('i'); //Hi
